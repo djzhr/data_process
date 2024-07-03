@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(video_path)
 if not cap.isOpened():
     print("Error: Could not open video.")
     exit()
-
+#k是
 frame_count = 0
 # 逐帧读取视频
 while True:
